@@ -11,7 +11,7 @@ To solve these issues some additional Amazon services are used (see below for mo
 - **API Gateway**
 
 
-### Code / Files
+## Code / Files
 
 **Project Boston housing**
 - `1a-deploy_high-level_boston_housing.ipynb`: Builds and deploys a model using the _high-level API_ of Amazon Sagemaker, where a lot of decisions are managed by Sagemaker in the background.
@@ -22,7 +22,7 @@ To solve these issues some additional Amazon services are used (see below for mo
 - `index.html`: This is the simple web interface used for entering new reviews as input to the model.
 
 
-###On Lambda & Gateway API
+## On Lambda & Gateway API
 
 As mentioned earlier, there are two obstacles we are going to need to overcome. The first is the security issue and the second is data processing. The way that we are going to approach solving these issues is by making use of Amazon Lambda and API Gateway.
 
