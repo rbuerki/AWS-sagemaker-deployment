@@ -2,7 +2,9 @@
 
 Deploying ML models with Amazon SageMaker. The notebooks do not focus on the acutal projects (house price prediction and sentiment analysis, both with XGBoost), but on how to build and deploy models in the AWS cloud.
 
-The IMBD project adresses 2 special concerns:
+The **Boston housing project** goes through two approaches: high-level and detailed. It has also two additional notebooks focusing on hyperparameter tuning to find the best model conifugration (again high-level and detailed approach).
+
+The **IMBD project** does no hyperparameter tuning but adresses 2 special concerns:
 1. The endpoint that is created when we deploy a model using SageMaker (as in the boston housing project) is secured, meaning that only entities that are authenticated with AWS can send or receive data from the deployed model. This is a problem since authenticating for the purposes of a simple web app is a bit more work than we'd like.
 2. The second obstacle is that our deployed model expects us to send it a review after it has been processed. That is, it assumes we have already tokenized the review and then created a bag of words encoding. However, we want our user to be able to type any review into our web app.
 
