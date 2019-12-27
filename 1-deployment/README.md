@@ -18,8 +18,8 @@ To solve these issues some additional Amazon services are used (see below for mo
 **Project Boston housing**
 - `1a-deploy_high-level_boston_housing.ipynb`: Builds and deploys a model using the _high-level API_ of Amazon Sagemaker, where a lot of decisions are managed by Sagemaker in the background.
 - `1b-deploy_detailed_boston_housing.ipynb`: Actually the same content as in 1a, but this time the _low-level API_ is used with much more manual coding and specification. This is easier to debug in case of problems.
-- `1b-hyperparam-tuning_high-level_boston.ipynb`: Based on the same data and code as 1a, but with the additional step of hyperparameter tuning to find the best model config using the _high-level API.
-- `1b-hyperparam-tuning__detailed_boston.ipynb`: Based on the same data and code as 1b, but with the additional step of hyperparameter tuning to find the best model config using the _low-level API.
+- `1c-hyperparam-tuning_high-level_boston.ipynb`: Based on the same data and code as 1a, but with the additional step of hyperparameter tuning to find the best model config using the _high-level API.
+- `1d-hyperparam-tuning__detailed_boston.ipynb`: Based on the same data and code as 1b, but with the additional step of hyperparameter tuning to find the best model config using the _low-level API.
 
 **Project IMBD sentiment analysis - deployment for public web-app**
 - `2a-deploy_web-app_IMBD_sentiment.ipynb`: Launches a little web app to get recommendation for individual user IDs. 
