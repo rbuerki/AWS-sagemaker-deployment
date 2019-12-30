@@ -23,7 +23,7 @@ The notebooks works with different features offered by Amazon's SageMaker servic
 
 - **Batch Transform** is the method by which you can perform inference on a whole bunch of data at once. In contrast, setting up an endpoint allows you to perform inference on small amounts of data by sending it do the endpoint bit by bit.
 
-<img src="overview.jpg">
+<img src="overview.JPG">
 
 In addition to the features provided by SageMaker we use **three other Amazon services**:
 
