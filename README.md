@@ -7,7 +7,7 @@ A repository containing some tutorial notebooks and projects on how to deploy ML
 
 See separate README files in the respective subfolders for details.
 
-The notebooks work with different features offered by Amazon's SageMaker service, including the following.
+The notebooks works with different features offered by Amazon's SageMaker service, including the following:
 
 - **Notebook Instances** provide a convenient place to process and explore data in addition to making it very easy to interact with the rest of SageMaker's features.
 
@@ -22,6 +22,8 @@ The notebooks work with different features offered by Amazon's SageMaker service
 - **Endpoints** are the actual HTTP URLs that are created by SageMaker and which have properties specified by their associated endpoint configurations. Have you shut down your endpoints?
 
 - **Batch Transform** is the method by which you can perform inference on a whole bunch of data at once. In contrast, setting up an endpoint allows you to perform inference on small amounts of data by sending it do the endpoint bit by bit.
+
+<img src="overview.jpg">
 
 In addition to the features provided by SageMaker we use **three other Amazon services**:
 
