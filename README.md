@@ -4,10 +4,11 @@ A repository containing some tutorial notebooks and projects on how to deploy ML
 
 1. Deployment (incl. hyperparameter-tuning)
 2. Updating Models
+3. Final project (deployment of a web app)
 
 See separate README files in the respective subfolders for details.
 
-The notebooks works with different features offered by Amazon's SageMaker service, including the following:
+The notebooks work with different features offered by Amazon's SageMaker service, including the following:
 
 - **Notebook Instances** provide a convenient place to process and explore data in addition to making it very easy to interact with the rest of SageMaker's features.
 

@@ -12,6 +12,7 @@ To solve these issues some additional Amazon services are used (see below for mo
 - **Amazon Lambda**
 - **API Gateway**
 
+_(Note: A more complicated version of this approach with customization of models and inference code can be found in folder 3.)_
 
 ## Code / Files
 
